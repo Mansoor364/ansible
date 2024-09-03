@@ -5,4 +5,3 @@
   - name: print the facts
     ansible.builtin.debug:
       msg: "facts are: {{ ansible_facts }}"
-      
